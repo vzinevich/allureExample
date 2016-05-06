@@ -1,0 +1,93 @@
+{
+  "time" : {
+    "start" : 1462436656242,
+    "stop" : 1462436657328,
+    "duration" : 1086
+  },
+  "testSuites" : [ {
+    "uid" : "22f1edf1f6f5cc51",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test",
+    "time" : {
+      "start" : 1462436656242,
+      "stop" : 1462436657328,
+      "duration" : 1086
+    },
+    "statistic" : {
+      "total" : 6,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 4,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b540a8e4f521c934",
+      "name" : "failedTest",
+      "title" : "Failed test",
+      "time" : {
+        "start" : 1462436656242,
+        "stop" : 1462436656254,
+        "duration" : 12
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "8fa255797493e708",
+      "name" : "simpleTest",
+      "title" : "Simple test",
+      "time" : {
+        "start" : 1462436656255,
+        "stop" : 1462436656266,
+        "duration" : 11
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "dd76db537f66aab6",
+      "name" : "simpleTestWithAttachments",
+      "title" : "Simple test with attachments",
+      "time" : {
+        "start" : 1462436656267,
+        "stop" : 1462436656267,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "36646974824d6073",
+      "name" : "simpleTestWithSteps",
+      "title" : "Simple test with steps",
+      "time" : {
+        "start" : 1462436656267,
+        "stop" : 1462436656507,
+        "duration" : 240
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "6d29b643efd414de",
+      "name" : "testHovering",
+      "title" : "Test hovering",
+      "time" : {
+        "start" : 1462436656508,
+        "stop" : 1462436657283,
+        "duration" : 775
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a6a4f6be8602668d",
+      "name" : "testOne",
+      "title" : "Test one",
+      "time" : {
+        "start" : 1462436657288,
+        "stop" : 1462436657328,
+        "duration" : 40
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}

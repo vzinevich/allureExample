@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: Tests.Tests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 9.249 sec <<< FAILURE! - in Tests.Tests
+failedTest(Tests.Tests)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: This test should be failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at Tests.Tests.failedTest(Tests.java:83)
+
+simpleTest(Tests.Tests)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: expected [is <2>] but found [2]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at Tests.Tests.simpleTest(Tests.java:57)
+
+simpleTestWithAttachments(Tests.Tests)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [is <2>] but found [2]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at Tests.Tests.simpleTestWithAttachments(Tests.java:77)
+
+simpleTestWithSteps(Tests.Tests)  Time elapsed: 0.232 sec  <<< FAILURE!
+java.lang.AssertionError: expected [is <2>] but found [2]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at Tests.Tests.checkThat2is2(Tests.java:62)
+	at Tests.Tests.simpleTestWithSteps(Tests.java:67)
+
+testOne(Tests.Tests)  Time elapsed: 0.041 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Form Authentication"}
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'prep129', ip: '172.18.5.124', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1beb816c-1e0a-4ec3-b947-410f95f4f8e2
+*** Element info: {Using=partial link text, value=Form Authentication}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:436)
+	at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Tests.Tests.testOne(Tests.java:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Form Authentication"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'prep129', ip: '172.18.5.124', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/student/AppData/Local/Temp/anonymous1420285439470447587webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/student/AppData/Local/Temp/anonymous1420285439470447587webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/student/AppData/Local/Temp/anonymous1420285439470447587webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/student/AppData/Local/Temp/anonymous1420285439470447587webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/student/AppData/Local/Temp/anonymous1420285439470447587webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+

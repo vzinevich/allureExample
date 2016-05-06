@@ -1,0 +1,52 @@
+{
+  "hash" : "f0f9583e3b2974a632a09536fa6cd0de93829600",
+  "data" : [ {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 3,
+      "message" : "AssertionError: expected [is <2>] but found [2]",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: This test should be failed",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "NoSuchElementException: Unable to locate element: {\"method\":\"partial link text\",\"selector\":\"Form Authentication\"}\nCommand duration or timeout: 20 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'prep129', ip: '172.18.5.124', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 1beb816c-1e0a-4ec3-b947-410f95f4f8e2\n*** Element info: {Using=partial link text, value=Form Authentication}",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Surefire suite : Surefire test",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 4,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 4,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}
