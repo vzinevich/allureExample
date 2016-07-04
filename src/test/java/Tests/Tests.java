@@ -76,6 +76,7 @@ public class Tests {
     public void simpleTestWithAttachments() throws Exception {
         Assert.assertEquals(2, is(2));
         makeAttach();
+        Assert.assertTrue(true);
     }
 
     @Test
